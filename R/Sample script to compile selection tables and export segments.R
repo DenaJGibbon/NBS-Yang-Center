@@ -34,6 +34,7 @@ write.csv(KSPFilesCombined,paste('data/',basename(KSPFolders[z]), '_KSPFilesComb
 
 
 # Code to segment ---------------------------------------------------------
+# NEED TO ADD LOOP OVER ALL LOCATION CSVS
 UniqueSpecies <- unique(KSPFilesCombined$Common.Name)
 
 for(b in 1:length(UniqueSpecies)){
